@@ -1,182 +1,287 @@
-<h1 align="center">🏭 Projeto — Autonomia e Polivalência na Produção</h1><h3 align="center">Conclusão do Projeto Integrador | Planejamento Produtivo + Gestão de Operadores + Apoio à Decisão</h3><p align="center"><strong>FATEC São José dos Campos — Gestão da Produção Industrial</strong></p><!-- IMAGEM: capa da apresentação ou identidade visual do projeto. Substituir o caminho abaixo. -->
+<h1 align="center">🏭 Projeto — Autonomia e Polivalência na Produção</h1>
 
-👥 Participantes do Projeto
-Preencher os nomes e as funções oficiais da equipe antes da publicação. Essas informações não constam na apresentação analisada.
+<h3 align="center">Da análise do problema a uma ferramenta de apoio à decisão</h3>
 
-Nome	Função no Projeto
-[Nome do integrante 1]	[Função]
-[Nome do integrante 2]	[Função]
-[Nome do integrante 3]	[Função]
-[Nome do integrante 4]	[Função]
-[Nome do integrante 5]	[Função]
+<p align="center"><strong>Projeto Integrador | Gestão da Produção Industrial — FATEC São José dos Campos</strong></p>
+
+![Capa — Autonomia e Polivalência na Produção](./imagens/slide-01-capa.png)
+
+---
+
+## 👥 Integrantes do Projeto
+
+![Integrantes do projeto](./imagens/integrantes.png)
+
+| Integrante | Participação |
+|---|---|
+| Rafaela Moreira | Scrum Master |
+| Maria Fernanda | Product Owner |
+| Anita Leonel | Equipe do projeto |
+| Daniella Araujo | Equipe do projeto |
+| Karolini Gabrielle | Equipe do projeto |
 
 
-👤 Cliente e Representação
-O projeto foi desenvolvido a partir de um desafio operacional apresentado pela empresa parceira Freudenberg, com foco no aumento da autonomia da liderança de produção e no melhor aproveitamento da polivalência dos operadores.
+**Professor:** Prof. Esp. Rodrigo Elias Pereira  
+**Instituição:** FATEC São José dos Campos — Prof. Jessen Vidal  
+**Curso:** Gestão da Produção Industrial
 
-Representante do cliente: [Nome e cargo]
-Professor(a) orientador(a) / representante acadêmico(a): [Nome]
-Validações realizadas: [Inserir informações ou link para os registros de feedback e validação]
-📌 Descrição Geral
-Este repositório documenta o desenvolvimento do projeto Autonomia e Polivalência na Produção, cujo objetivo é transformar informações operacionais em uma ferramenta de apoio à decisão para a liderança do setor produtivo.
+## 👤 Cliente e Contexto
 
-O desafio identificado foi a dependência recorrente do Planejamento, Programação e Controle da Produção (PCP) para decisões relacionadas à disponibilidade de operadores, à cobertura de ausências e aos impactos das faltas sobre as metas de produção e as etapas seguintes do processo.
+O projeto foi desenvolvido a partir de um desafio operacional da **empresa parceira Freudenberg**, relacionado à autonomia da liderança de produção e ao aproveitamento da polivalência dos operadores.
 
-Para enfrentar esse problema, foi estruturada uma solução que integra planejamento produtivo, capacidade, escala e presença de operadores, matriz de polivalência e simulação de cenários de falta. A proposta é permitir que o líder consulte informações relevantes e avalie alternativas com maior agilidade, reduzindo a necessidade de acionar o PCP a todo momento.
+**Representante do cliente:** *[Preencher, caso seja autorizado divulgar]*  
+**Registros de feedback e validação:** *[Inserir link, se disponível e autorizado]*
 
-O desenvolvimento foi organizado em três sprints, desde o entendimento do problema até a consolidação de uma solução analítica e visual.
-🎯 Objetivos do projeto
-- Ampliar a autonomia da liderança nas decisões operacionais do dia a dia.
-- Dar visibilidade às metas, à produção realizada e à capacidade disponível.
-- Identificar operadores habilitados a cobrir ausências por meio da matriz de polivalência.
-- Simular perdas de produção e avaliar possibilidades de recuperação.
-- Antecipar impactos de uma falta nos processos seguintes.
-- Integrar informações de pessoas e produção em uma ferramenta de consulta.
-🔧 Principais entregas
-- Planilha estruturada como base do modelo de planejamento.
+---
+
+# 📌 Descrição Geral
+
+Este repositório documenta o desenvolvimento do projeto **Autonomia e Polivalência na Produção**, com foco em uma solução de **apoio à tomada de decisão na operação industrial**.
+
+O desafio consistiu em compreender a dependência do **Planejamento, Programação e Controle da Produção (PCP)** nas decisões do dia a dia, especialmente em situações de ausência de operadores. Uma falta pode comprometer metas por turno, reduzir a capacidade disponível e afetar as etapas seguintes do processo produtivo.
+
+Para apoiar a liderança nesses cenários, o grupo desenvolveu uma estrutura que integra **planejamento produtivo, metas, produção realizada, escala e presença de operadores, matriz de polivalência e simulação de cenários de falta**, além de um **protótipo visual** para consulta das informações.
+
+A proposta é permitir que o líder identifique ausências, verifique possíveis coberturas e avalie impactos na produção com maior agilidade, sem precisar consultar o PCP a todo momento.
+
+### 🎯 Objetivos
+
+- Ampliar a autonomia da liderança nas decisões operacionais.
+- Reunir informações de produção, capacidade e disponibilidade de pessoas.
+- Identificar operadores habilitados para cobrir postos em situações de ausência.
+- Estimar perdas de produção e possibilidades de recuperação.
+- Antecipar riscos para as operações seguintes.
+- Oferecer uma visualização prática dos cenários para apoiar decisões no setor.
+
+### 🔧 Principais entregas
+
+- Planilha estruturada de planejamento e acompanhamento produtivo.
 - Simulação de cenários de falta de operadores.
-- Escala, acompanhamento de presença e matriz de polivalência.
-- Protótipo visual com filtros, indicadores e apoio à tomada de decisão.
-- Definição dos indicadores para avaliação da solução.
-🖥️ Visão geral da solução
-A solução centraliza dados operacionais em uma estrutura que permite acompanhar a produção, verificar a disponibilidade dos operadores e testar cenários de ausência.
-<!-- IMAGEM: visão geral da ferramenta de apoio à decisão. -->
+- Escala, controle de presença e matriz de polivalência.
+- Ferramenta visual de apoio à decisão.
+- Indicadores para avaliação da solução.
 
-Acesso à ferramenta/protótipo: [Inserir link, se houver]
-Acesso à planilha: [Inserir link, se autorizado]
-Observação sobre permissões: [Indicar restrições de acesso, se aplicável]
-📅 Evolução do Projeto — 3 Sprints
-📅 Sprint 1 — Diagnóstico e Definição do Desafio
-✔ Entregas principais
-- Mapeamento do problema operacional.
+---
+
+# 📅 Evolução do Projeto — 3 Sprints
+
+A evolução do projeto ocorreu em três etapas: **entender o problema, transformar o diagnóstico em uma solução e consolidar uma ferramenta testável**.
+
+### 📸 Visão geral das sprints — Slide 2
+
+![Slide 2 — Evolução do projeto ao longo das três sprints](./imagens/slide-02-evolucao-sprints.png)
+
+## 📅 Sprint 1 — Diagnóstico do Problema
+
+### ✔ Entregas principais
+
+- Mapeamento do desafio operacional.
 - Definição do objetivo do projeto.
-- Compreensão da dependência da liderança em relação ao PCP.
-- Identificação das informações necessárias para apoiar decisões sobre produção e operadores.
-Resultado da sprint: entendimento do desafio e direcionamento inicial da solução.
-📸 Registros da Sprint 1
-<!-- IMAGEM: diagnóstico do problema, fluxograma ou apresentação da Sprint 1. -->
+- Entendimento da dependência da operação em relação ao PCP.
+- Identificação das informações necessárias à tomada de decisão.
 
-📅 Sprint 2 — Estruturação do Modelo e Protótipo
-✔ Entregas principais
-- Estruturação da planilha de planejamento.
-- Análises de capacidade produtiva e presença dos operadores.
-- Desenvolvimento de cenários de ausência.
-- Organização da matriz de polivalência.
-- Desenvolvimento de um protótipo interativo para visualização das informações.
-Resultado da sprint: transformação do diagnóstico em uma solução estruturada, analítica e visual.
-📸 Registros da Sprint 2
-<!-- IMAGEM: planilha, matriz ou protótipo produzido na Sprint 2. -->
+**Resultado:** compreensão do problema e direcionamento da solução proposta.
 
-<!-- IMAGEM: interface do protótipo desenvolvido. -->
+## 📅 Sprint 2 — Estruturação da Solução
 
-📅 Sprint 3 — Validação e Consolidação da Solução
-✔ Entregas principais
+### ✔ Entregas principais
+
+- Estruturação da planilha de planejamento produtivo.
+- Análise de capacidade e presença dos operadores.
+- Organização de cenários de ausência.
+- Desenvolvimento da matriz de polivalência.
+- Elaboração de um protótipo interativo.
+
+**Resultado:** transformação do diagnóstico em uma **solução analítica e visual**.
+
+## 📅 Sprint 3 — Validação e Consolidação
+
+### ✔ Entregas principais
+
 - Consolidação das informações de produção, capacidade e disponibilidade de operadores.
-- Teste das premissas com dados reais.
-- Ajustes nas regras do modelo.
-- Definição dos indicadores finais de acompanhamento.
-- Validação da aplicabilidade da ferramenta.
-- Integração dos recursos em uma visão de apoio à decisão.
-A estrutura consolidada contempla três frentes:
-1. Planejamento produtivo: metas por turno, produção realizada e identificação de desvios.
-2. Gestão de pessoas: presença dos operadores, identificação de profissionais aptos à cobertura e consulta à matriz de polivalência.
-3. Simulação de cenários: análise de faltas, capacidade disponível e estimativa da necessidade de recuperação da produção.
-Resultado da sprint: consolidação dos recursos desenvolvidos nas etapas anteriores em uma solução integrada para avaliação e consulta operacional.
-📸 Registros da Sprint 3
-<!-- IMAGEM: visão consolidada da Sprint 3. -->
+- Teste de premissas com dados reais, conforme o escopo apresentado.
+- Ajuste das regras do modelo e definição de indicadores finais.
+- Avaliação da aplicabilidade da solução.
+- Integração dos recursos em uma estrutura de consulta operacional.
 
-🛠️ Entregas Técnicas
-📊 Entrega 1 — Planilha de Planejamento Produtivo
-A planilha funciona como base central do modelo, reunindo parâmetros configuráveis, metas por turno, produção realizada, informações de pessoas e cenários de exceção.
+A solução consolidada está organizada em **três frentes**:
 
-Na configuração apresentada na entrega final, o modelo considera:
-Parâmetro	Configuração apresentada
-Meta mensal	78.000 (configurável)
-Processos conectados	3
-Turnos parametrizados	3
-Horizonte de planejamento	30 dias
+1. **Planejamento produtivo:** acompanhamento de metas por turno, produção realizada e possíveis desvios.
+2. **Gestão de pessoas:** presença dos operadores, profissionais aptos à cobertura e matriz de polivalência.
+3. **Simulação de cenários:** análise de faltas, capacidade disponível e necessidade de recuperação da produção.
 
+### 📸 Consolidação da Sprint 3 — Slide 3
 
-Esses parâmetros permitem organizar as informações essenciais para o acompanhamento da produção e a análise de sua capacidade.
-📸 Planilha de planejamento
-<!-- IMAGEM: aba de parâmetros e planejamento da planilha. -->
+![Slide 3 — Planejamento produtivo, gestão de pessoas e simulação de cenários](./imagens/slide-03-consolidacao-sprint-3.png)
 
-⚠️ Entrega 2 — Simulação de Falta de Operadores
-O modelo analisa a ausência de um operador não apenas como uma ocorrência isolada, mas como um evento capaz de afetar a produção e as etapas seguintes da cadeia.
+---
 
-A análise é dividida em três etapas:
-1. Quantificação da perda: identifica a meta do turno comprometida e seu percentual em relação à meta diária.
-2. Avaliação da recuperação: verifica a capacidade produtiva disponível e calcula a produção extra necessária por dia.
-3. Priorização da ação: considera o impacto no processo seguinte, o PN/cliente afetado e a recomendação operacional apresentada pelo modelo.
-O cenário também considera uma defasagem de um dia entre os processos, representando o buffer/estoque em processo (WIP).
-📸 Simulador de cenários
-<!-- IMAGEM: aba Cenário - Falta Operador da planilha. -->
+# 📈 Indicadores de Avaliação da Solução
 
-👷 Entrega 3 — Escala, Presença e Matriz de Polivalência
-A disponibilidade dos operadores passou a fazer parte do planejamento, permitindo analisar tanto quem está presente em determinado turno quanto quem possui habilitação para atuar em outros postos.
-Escala e presença
-- Acompanhamento da alocação dos operadores por turno.
-- Identificação de ausências.
-- Visualização de lacunas de cobertura.
-Matriz de polivalência
-- Consulta às habilidades e habilitações dos operadores por processo ou posto.
-- Identificação de profissionais aptos à substituição.
-- Apoio à análise de alternativas de cobertura em situações de falta.
-📸 Escala e matriz de polivalência
-<!-- IMAGEM: tabela de escala e presença. -->
+Os indicadores foram definidos para avaliar o desempenho produtivo e os efeitos da indisponibilidade de operadores.
 
-<!-- IMAGEM: tela da matriz de polivalência, com filtro por operador ou turno. -->
+| Indicador | Finalidade |
+|---|---|
+| **Aderência à meta de produção** | Avaliar quanto da meta estabelecida foi efetivamente produzido. |
+| **Índice de cobertura de operadores** | Demonstrar a possibilidade de substituição de operadores ausentes por profissionais habilitados. |
+| **Perda de produção** | Quantificar a produção não realizada devido à indisponibilidade de operadores. |
+| **Capacidade de recuperação** | Avaliar quanto da produção perdida pode ser recuperada nos turnos ou dias seguintes. |
+| **Impacto no processo seguinte** | Identificar efeitos da redução de produção sobre a continuidade das etapas seguintes. |
 
-💻 Entrega 4 — Ferramenta Visual de Apoio à Decisão
-O protótipo reúne acompanhamento produtivo, filtros, presença dos operadores, indicadores e simulação de cenários em uma única interface.
+### 📸 Quadro de indicadores — Slide 4
 
-A intenção é facilitar a interpretação das informações e apoiar decisões mais rápidas e organizadas diretamente no setor de produção.
-📸 Interface da ferramenta
-<!-- IMAGEM: visão principal da ferramenta de apoio. -->
+![Slide 4 — Indicadores utilizados na avaliação da solução](./imagens/slide-04-indicadores.png)
 
-<!-- IMAGEM OPCIONAL: detalhe dos filtros ou do resultado de uma simulação. -->
+---
 
-📈 Indicadores de Avaliação da Solução
-Indicador	Finalidade
-Aderência à meta de produção	Avaliar quanto da meta estabelecida foi efetivamente produzido.
-Índice de cobertura de operadores	Demonstrar a capacidade de substituir operadores ausentes por profissionais habilitados.
-Perda de produção	Quantificar a produção não realizada devido à indisponibilidade de operadores.
-Capacidade de recuperação	Avaliar quanto da produção perdida pode ser recuperada em turnos ou dias posteriores.
-Impacto no processo seguinte	Identificar como uma redução produtiva pode afetar a continuidade das operações seguintes.
+# 🛠️ Entregas Técnicas
 
+## 📊 Entrega 1 — Planilha de Planejamento Produtivo
 
-<!-- IMAGEM OPCIONAL: painel ou quadro dos indicadores. -->
+A planilha tornou-se a **base do modelo**, centralizando parâmetros de operação, metas por turno, produção realizada, informações de pessoas e cenários de exceção.
 
-✅ Resultados e Benefícios Esperados
-A solução foi desenvolvida com a expectativa de proporcionar:
-- Maior visibilidade da capacidade produtiva.
-- Melhor organização da disponibilidade de operadores.
-- Menor dependência de profissionais específicos.
-- Identificação antecipada de riscos de interrupção.
-- Maior integração entre planejamento e operação.
-O foco é transformar informações sobre pessoas e produção em decisões mais rápidas e organizadas.
+Na configuração apresentada na Sprint 3, o modelo contempla:
 
-Nota: os itens acima são benefícios esperados, conforme a apresentação final; não representam ganhos quantitativos comprovados de implantação.
-📸 Resultados e apresentação final
-<!-- IMAGEM: slide de benefícios, foto da Feira de Soluções ou registro da apresentação final. -->
+| Parâmetro | Valor apresentado |
+|---|---:|
+| Meta mensal configurável | **78.000** |
+| Processos conectados | **3** |
+| Turnos parametrizados | **3** |
+| Dias de planejamento | **30** |
 
-📌 Backlog Geral do Projeto
-Item	Descrição	Status na apresentação
-1	Mapeamento do problema e definição do objetivo	✔ Desenvolvido na Sprint 1
-2	Estruturação do modelo de planejamento	✔ Apresentado
-3	Análise de capacidade e cenários de falta	✔ Apresentado
-4	Escala, presença e matriz de polivalência	✔ Apresentado
-5	Protótipo visual de apoio à decisão	✔ Apresentado
-6	Consolidação dos indicadores e validação da solução	✔ Descrita na Sprint 3
+### 📸 Base de planejamento — Slide 5
 
+![Slide 5 — Planilha de planejamento produtivo](./imagens/slide-05-planilha-planejamento.png)
 
-Quadro de acompanhamento: [Inserir link do Trello, GitHub Projects ou outra ferramenta utilizada]
-<!-- IMAGEM OPCIONAL: quadro de backlog ou cronograma das sprints. -->
+---
 
-🏁 Conclusão
-O projeto Autonomia e Polivalência na Produção evoluiu do diagnóstico de um problema operacional para a estruturação de uma ferramenta integrada de apoio à decisão.
+## ⚠️ Entrega 2 — Simulação de Falta de Operador
 
-Ao reunir dados de capacidade produtiva, metas, presença e polivalência dos operadores, a solução oferece à liderança condições para identificar ausências, consultar possibilidades de cobertura e analisar impactos na produção.
+A análise de ausência não se limita a registrar a falta: o modelo procura transformar a ocorrência em uma **resposta operacional**, considerando seus efeitos na produção.
 
-A proposta é tornar as decisões operacionais mais ágeis e fundamentadas em informações acessíveis, contribuindo para a continuidade do processo produtivo e reduzindo a necessidade de consultar o PCP a cada ocorrência.
-<h3 align="center">🔧 Desenvolvido no Projeto Integrador — Gestão da Produção Industrial | FATEC São José dos Campos</h3><p align="center"><strong>[Nome do grupo] • [Ano/Semestre]</strong></p>
+O cenário foi dividido em três etapas:
+
+1. **Quantificar a perda:** identificar a meta do turno comprometida e o percentual relacionado à meta diária.
+2. **Testar a recuperação:** verificar a capacidade disponível e a produção adicional necessária por dia.
+3. **Priorizar a ação:** considerar o impacto na etapa seguinte, o **PN/cliente afetado** e a recomendação operacional.
+
+O modelo também considera uma **defasagem de um dia entre processos**, representando o *buffer* ou estoque em processo (**WIP**).
+
+### 📸 Cenário de falta — Slide 6
+
+![Slide 6 — Simulação de falta e resposta operacional](./imagens/slide-06-cenario-falta-operador.png)
+
+---
+
+## 👷 Entrega 3 — Escala, Presença e Matriz de Polivalência
+
+A disponibilidade dos operadores passa a integrar o planejamento produtivo, permitindo visualizar **quem está presente, quem está alocado e quem pode atuar em outro posto**.
+
+### Escala e presença
+
+- Identificação dos operadores por turno e posto.
+- Consulta da situação de presença e das ausências.
+- Visualização de possíveis lacunas de cobertura.
+
+### 📸 Escala e presença — Slide 7
+
+![Slide 7 — Escala e presença de operadores](./imagens/slide-07-escala-presenca.png)
+
+### Matriz de polivalência
+
+- Consulta das habilidades dos operadores por processo ou posto.
+- Identificação de profissionais habilitados para substituição.
+- Apoio à escolha de alternativas diante de faltas.
+
+### 📸 Matriz de polivalência — Slide 8
+
+![Slide 8 — Matriz de polivalência e filtro de operador](./imagens/slide-08-matriz-polivalencia.png)
+
+---
+
+## 💻 Entrega 4 — Ferramenta Visual de Apoio à Decisão
+
+O protótipo consolida informações e recursos em uma interface com **filtros, acompanhamento produtivo, presença dos operadores, indicadores e simulação**.
+
+Sua finalidade é tornar a consulta mais objetiva e permitir que a liderança analise cenários de ausência e suas consequências diretamente no setor produtivo.
+
+### 📸 Interface da ferramenta — Slide 9
+
+![Slide 9 — Ferramenta visual de apoio à decisão](./imagens/slide-09-ferramenta-apoio-decisao.png)
+
+**Acesso ao protótipo:** *[Adicionar link, se houver e for permitido compartilhar]*  
+**Acesso à planilha:** *[Adicionar link, se houver e for permitido compartilhar]*
+
+---
+
+# ✅ Resultados e Benefícios Esperados
+
+A proposta busca contribuir para:
+
+- **Maior visibilidade** da capacidade produtiva.
+- **Melhor organização** da disponibilidade dos operadores.
+- **Redução da dependência** de profissionais específicos.
+- **Identificação antecipada** de riscos de interrupção.
+- **Maior integração** entre planejamento e operação.
+
+> Transformar informações sobre pessoas e produção em decisões mais rápidas e organizadas.
+
+Os pontos acima são **benefícios esperados** apresentados no projeto, não resultados quantitativos de implantação já comprovados.
+
+### 📸 Resultados esperados — Slide 10
+
+![Slide 10 — Resultados e benefícios esperados](./imagens/slide-10-resultados-esperados.png)
+
+---
+
+# 📌 Backlog Geral do Projeto
+
+| Item | Atividade | Situação apresentada |
+|---|---|---|
+| 1 | Mapeamento do desafio operacional | Desenvolvido na Sprint 1 |
+| 2 | Estruturação do planejamento e análise de capacidade | Apresentado na Sprint 2 |
+| 3 | Simulação de cenários de falta | Consolidado na Sprint 3 |
+| 4 | Escala, presença e matriz de polivalência | Consolidado na Sprint 3 |
+| 5 | Ferramenta visual de apoio à decisão | Protótipo apresentado |
+| 6 | Indicadores e avaliação de aplicabilidade | Abordados na Sprint 3 |
+
+**Quadro de acompanhamento:** *[Inserir link do Trello ou outra ferramenta, caso exista]*
+
+---
+
+# 🏁 Conclusão
+
+O projeto **Autonomia e Polivalência na Produção** evoluiu do diagnóstico de um desafio operacional para uma **ferramenta integrada de apoio à decisão**.
+
+Ao reunir informações de capacidade produtiva, metas, presença e polivalência dos operadores, a proposta oferece à liderança melhores condições para identificar faltas, avaliar possibilidades de cobertura e compreender os impactos das ausências no processo produtivo.
+
+O objetivo final é **aumentar a autonomia da liderança e dar mais agilidade à operação**, reduzindo a necessidade de consultas constantes ao PCP.
+
+### 📸 Conclusão do projeto — Slide 11
+
+![Slide 11 — Conclusão da Sprint 3](./imagens/slide-11-conclusao.png)
+
+---
+
+## 🗂️ Organização das Imagens
+
+Todas as imagens estão na pasta [`imagens/`](./imagens/) e utilizam o formato `.png`.
+
+| Origem | Nome do arquivo |
+|---|---|
+| Arte dos integrantes | `integrantes.png` |
+| Slide 1 — Capa do projeto | `slide-01-capa.png` |
+| Slide 2 — Evolução das três sprints | `slide-02-evolucao-sprints.png` |
+| Slide 3 — Consolidação da Sprint 3 | `slide-03-consolidacao-sprint-3.png` |
+| Slide 4 — Indicadores de avaliação | `slide-04-indicadores.png` |
+| Slide 5 — Planilha de planejamento | `slide-05-planilha-planejamento.png` |
+| Slide 6 — Cenário de falta de operador | `slide-06-cenario-falta-operador.png` |
+| Slide 7 — Escala e presença | `slide-07-escala-presenca.png` |
+| Slide 8 — Matriz de polivalência | `slide-08-matriz-polivalencia.png` |
+| Slide 9 — Ferramenta de apoio à decisão | `slide-09-ferramenta-apoio-decisao.png` |
+| Slide 10 — Resultados esperados | `slide-10-resultados-esperados.png` |
+| Slide 11 — Conclusão | `slide-11-conclusao.png` |
+
+---
+
+<h3 align="center">🔧 Projeto Integrador — Gestão da Produção Industrial | FATEC São José dos Campos • 2026</h3>
