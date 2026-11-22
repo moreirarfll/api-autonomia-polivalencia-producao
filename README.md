@@ -279,10 +279,6 @@ O objetivo final é **aumentar a autonomia da liderança e dar mais agilidade à
 
 ---
 
-## 🗂️ Organização dos Arquivos
-
-As imagens estão na pasta [`imagens/`](./imagens/) em formato `.png`, e os vídeos de demonstração na pasta [`videos/`](./videos/) em formato `.mp4`.
-
 ### 🎥 Vídeos
 
 | Demonstração | Arquivo |
